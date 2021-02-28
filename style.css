@@ -30,6 +30,30 @@
   background: linear-gradient(180deg, #FEC5C5 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
 }
 
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.navbar-nav li{
+background-color: #DA231F;;
+ border-radius: 20px;
+ margin: 5px;
+ box-shadow: 2px 7px 4px rgba(0, 0, 0, 0.25);
+border-radius: 19px;
+}
+
+.navbar-nav li:hover{
+  background-image: linear-gradient( 68.2deg,  rgba(255,202,88,1) 0%, rgba(139,73,255,1) 100.2% );
+  border-radius: 20px;
+  
+}
+.navbar-light .navbar-nav .nav-link {
+    
+    color: white;
+    font-size: large;
+    padding-left: 10px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
 /*=============================Navbar End=================================*/
 
 
@@ -55,7 +79,7 @@ header .overlay{
   color: #FFF;
   text-shadow: 1px 1px 1px #333;
   background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
-  
+
 }
 
 h1 {
@@ -93,13 +117,19 @@ button:hover{
 .display-4{
 font-family: Amaranth;
 font-size: 47px;
-
 color: #DA231F;
 }
 .card
 {
 	background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
 		
+}
+.clipart{
+  margin-bottom: 20px;
+}
+
+.clipart1{
+  margin-bottom: 20px;
 }
 
 
