@@ -1,6 +1,7 @@
 
 *{padding: 0; margin: 0; box-sizing: border-box;}
 
+
 /*=============================Navbar=================================*/
 .navbar-brand img{
     width: 150px;
@@ -394,4 +395,13 @@ margin-bottom:40px;
 	font-family: Amaranth;
 color: #DA231F;
 
+}
+
+/*about us page*/
+
+.au{
+  font-family: 'Poppins', sans-serif;
+}
+.au .pic{
+  
 }
