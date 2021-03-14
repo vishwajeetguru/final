@@ -11,6 +11,9 @@
     <!-- Style CSS -->
     <link rel="stylesheet" type="text/css" href="style.css">
 
+    <!-- Tab CSS -->
+    <link rel="stylesheet" type="text/css" href="tab.css">
+
     <!-- font awesome icons -->
     <link
       rel="stylesheet"
@@ -137,7 +140,7 @@
                     <h5 class="card-title">Love</h5>
                     <h6 class=" mb-2 text-muted text-center"> Love, brake up and healing</h6>
                     <a href=""><img class="clipart" src="https://img.icons8.com/emoji/48/000000/broken-heart.png"/></a><br>
-                    <button type="button" class="btn btn-warning mt-lg-2">Proceed</button>
+                     <button type="button" class="vidbtn btn btn-primary" data-bs-toggle="modal" data-bs-target="#lovemodal">Proceed</button>
               </div>
             </div>
           </div>
@@ -235,6 +238,110 @@
        </div>
 
         <!-- card section end -->
+          <!-- love catogiry Modal -->
+            <div class="lovemodal modal fade" id="lovemodal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="loveomodal modal-dialog modal-xl">
+                <div class="lovemodal modal-content">
+                  <div class="lovemodal modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Love</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="lovevideomodal modal-body">
+                      <!------------------------------------------- cards--------------------------------------- -->
+                                <div class="warpper">
+                                        <input class="radio" id="one" name="group" type="radio" checked>
+                                        <input class="radio" id="two" name="group" type="radio">
+                                        <input class="radio" id="three" name="group" type="radio">
+                                        <div class="tabs">
+                                        <label class="tab" id="one-tab" for="one">Videos</label>
+                                        <label class="tab" id="two-tab" for="two">Content</label>
+                                        <label class="tab" id="three-tab" for="three">Quotes</label>
+                                          </div>
+                                        <div class="panels">
+                                        <div class="panel" id="one-panel">
+                                          <div class="panel-title"></div>
+                         <!-- video  -->
+                                          <div class="row row-cols-1 row-cols-md-2 g-4">
+                                                              <div class="col">
+                                                                <div class="vid">
+                                                             
+                                                                  <div class="card-body">
+                                                                  <div class="embed-responsive embed-responsive-16by9">
+                                                                    <iframe width="100%" src="https://www.youtube.com/embed/k4pU7pu__QA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                                  </div>
+                                                                  </div>
+                                                                </div>
+                                                              </div>
+                                                              <div class="col">
+                                                                <div class="vid">
+                                                                 
+                                                                  <div class="card-body">
+                                                                       <div class="embed-responsive embed-responsive-16by9">
+                                                                    <iframe width="100%" src="https://www.youtube.com/embed/k4pU7pu__QA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                                  </div>
+                                                                  </div>
+                                                                </div>
+                                                              </div>
+                                                              <div class="col">
+                                                                <div class="vid">
+                                                                  
+                                                                  <div class="card-body">
+                                                                       <div class="embed-responsive embed-responsive-16by9">
+                                                                    <iframe width="100%" src="https://www.youtube.com/embed/k4pU7pu__QA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                                  </div>
+                                                                  </div>
+                                                                </div>
+                                                              </div>
+                                                              <div class="col">
+                                                                <div class="vid">
+                                                              
+                                                                  <div class="card-body">
+                                                                        <div class="embed-responsive embed-responsive-16by9">
+                                                                    <iframe width="100%" src="https://www.youtube.com/embed/k4pU7pu__QA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                                  </div>
+                                                                  </div>
+                                                                </div>
+                                                              </div>
+                                                            </div>
+                             <!-- video end -->
+                                        </div>
+                                        <div class="panel" id="two-panel">
+                                          <div class="panel-title"></div>
+                  <!-- content -->
+                                        <div class="alert alert-primary" role="alert">
+                                                        This is a primary alert—check it out!
+                                                      </div>
+                                                      <div class="alert alert-secondary" role="alert">
+                                                        This is a secondary alert—check it out!
+                                                      </div>
+                                                      <div class="alert alert-success" role="alert">
+                                                        This is a success alert—check it out!
+                                                      </div>
+                                                      <div class="alert alert-danger" role="alert">
+                                                        This is a danger alert—check it out!
+                                                      </div>
+                                                    
+                                                      
+                        <!-- content  end-->                              
+                                        </div>
+                                        <div class="panel" id="three-panel">
+                                          <div class="panel-title"></div>
+                      <!-- Quotes -->
+                                         <figure class="figure">
+                                              <img src="quotes.jpg" width="300px" class="figure-img img-fluid rounded" alt="...">
+                                              <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                                            </figure>
+                        <!-- Quotes end -->                    
+                                        </div>
+                                        </div>
+                                      </div>
+
+                 <!-------------------------------------------cards ends--------------------------------------- -->
+                  </div>
+                </div>
+              </div>
+            </div>
+    <!-- love video catogiry Modal end -->
 
         <!-- START THE FEATURETTES -->
 <div class="container-fluid">
