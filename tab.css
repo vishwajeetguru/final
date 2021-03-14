@@ -48,6 +48,9 @@ h2{
 .radio{
   display:none;
 }
+
+/*-----Love----*/
+
 #one:checked ~ .panels #one-panel,
 #two:checked ~ .panels #two-panel,
 #three:checked ~ .panels #three-panel{
@@ -56,6 +59,94 @@ h2{
 #one:checked ~ .tabs #one-tab,
 #two:checked ~ .tabs #two-tab,
 #three:checked ~ .tabs #three-tab{
+  background:#fffffff6;
+  color:#000;
+  border-top: 3px solid #000;
+}
+
+/*-----Family----*/
+
+#four:checked ~ .panels #four-panel,
+#five:checked ~ .panels #five-panel,
+#six:checked ~ .panels #six-panel{
+  display:block
+}
+#four:checked ~ .tabs #four-tab,
+#five:checked ~ .tabs #five-tab,
+#six:checked ~ .tabs #six-tab{
+  background:#fffffff6;
+  color:#000;
+  border-top: 3px solid #000;
+}
+
+/*-----Adult----*/
+#seven:checked ~ .panels #seven-panel,
+#eight:checked ~ .panels #eight-panel,
+#nine:checked ~ .panels #nine-panel{
+  display:block
+}
+#seven:checked ~ .tabs #seven-tab,
+#eight:checked ~ .tabs #eight-tab,
+#nine:checked ~ .tabs #nine-tab{
+  background:#fffffff6;
+  color:#000;
+  border-top: 3px solid #000;
+}
+
+/*-----Personal Development----*/
+#seven1:checked ~ .panels #seven1-panel,
+#eight1:checked ~ .panels #eight1-panel,
+#nine1:checked ~ .panels #nine1-panel{
+  display:block
+}
+#seven1:checked ~ .tabs #seven1-tab,
+#eight1:checked ~ .tabs #eight1-tab,
+#nine1:checked ~ .tabs #nine1-tab{
+  background:#fffffff6;
+  color:#000;
+  border-top: 3px solid #000;
+}
+
+/*-----Education----*/
+
+#four1:checked ~ .panels #four1-panel,
+#five1:checked ~ .panels #five1-panel,
+#six1:checked ~ .panels #six1-panel{
+  display:block
+}
+#four1:checked ~ .tabs #four1-tab,
+#five1:checked ~ .tabs #five1-tab,
+#six1:checked ~ .tabs #six1-tab{
+  background:#fffffff6;
+  color:#000;
+  border-top: 3px solid #000;
+}
+
+/*-----Business----*/
+
+#one1:checked ~ .panels #one1-panel,
+#two1:checked ~ .panels #two1-panel,
+#three1:checked ~ .panels #three1-panel{
+  display:block
+}
+#one1:checked ~ .tabs #one1-tab,
+#two1:checked ~ .tabs #two1-tab,
+#three1:checked ~ .tabs #three1-tab{
+  background:#fffffff6;
+  color:#000;
+  border-top: 3px solid #000;
+}
+
+/*-----Drugs----*/
+
+#one11:checked ~ .panels #one11-panel,
+#two11:checked ~ .panels #two11-panel,
+#three11:checked ~ .panels #three11-panel{
+  display:block
+}
+#one11:checked ~ .tabs #one11-tab,
+#two11:checked ~ .tabs #two11-tab,
+#three11:checked ~ .tabs #three11-tab{
   background:#fffffff6;
   color:#000;
   border-top: 3px solid #000;
